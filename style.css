@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  width: 350px;
+  margin: 40px auto;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+input.error-input {
+  border-color: red;
+}
+
+input.success-input {
+  border-color: green;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
